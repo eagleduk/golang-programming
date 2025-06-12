@@ -1,10 +1,24 @@
 
-- golang workspace 설정
-```shell
-go work init
-```
+- Go workspace 설정
+    ```shell
+    go work init
+    ```
 
-- golang 실행
-```shell
-go run [file path]
-```
+- Go 실행
+    ```shell
+    go run [file path]
+    ```
+
+- Go 소스파일 형식 지정
+    ```shell
+    go fmt
+    ```
+
+유용한 사이트
+
+- [`Go` 공식 사이트](https://go.dev)
+- [Go PlayGround](https://go.dev/play/)
+- [Package 검색](https://pkg.go.dev/)
+- [Go Forum](https://forum.golangbridge.org/)
+
+### [section04](section04)
