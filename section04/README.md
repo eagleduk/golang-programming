@@ -1,9 +1,9 @@
-## Control flow
+## 01. Control flow
 
 - `package`, `func main()` 가 필수로 있어야 한다.
 - 변수를 선언하면 반드시 사용해야 한다.(`_`를 사용하여 컴파일시 무시하라는 명령을 내릴 수 있다.)
 
-## [변수](https://go.dev/ref/spec#Identifiers)
+## 02.[변수](https://go.dev/ref/spec#Identifiers)
 
 - 변수 선언시 `문자 + 문자 | 유니코드` 형식으로 선언한다.
 - `go`에서 사용하는 [예약어](https://go.dev/ref/spec#Keywords)는 사용할 수 없다.
@@ -28,7 +28,7 @@
         }
     ```
 
-## [타입](https://go.dev/ref/spec#Types)
+## 03. [타입](https://go.dev/ref/spec#Types)
 
 - 정적 타입만 선언할 수 있다.(string 타입을 선언하고 int 값을 대입할 수 없다.)
 - 원시 자료형(string, int, bool)
@@ -52,7 +52,7 @@
     string(b)
     ```
 
-## [fmt](https://pkg.go.dev/fmt)
+## 04. [fmt](https://pkg.go.dev/fmt)
 
 - Print, Printf, Println: 콘솔에 출력
 - Sprint, Sprintf, Sprintln: 값으로 반환
