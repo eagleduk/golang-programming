@@ -51,3 +51,9 @@
     int(a)
     string(b)
     ```
+
+## [fmt](https://pkg.go.dev/fmt)
+
+- Print, Printf, Println: 콘솔에 출력
+- Sprint, Sprintf, Sprintln: 값으로 반환
+- Fprint, Fprintf, Fprintln: 파일로 출력
