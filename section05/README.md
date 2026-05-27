@@ -13,3 +13,6 @@
 - `fmt.Sprintf(format string, a ...any)` format 을 지정하여 문자열을 반환한다.
 
 ## exercises 4
+
+- [underlying types](https://go.dev/ref/spec#Underlying_types)
+- 사용자 임의의 타입을 만들 수 있다.
