@@ -1,18 +1,19 @@
-
 - Go workspace 설정
-    ```shell
-    go work init
-    ```
+
+  ```shell
+  go work init
+  ```
 
 - Go 실행
-    ```shell
-    go run [file path]
-    ```
+
+  ```shell
+  go run [file path]
+  ```
 
 - Go 소스파일 형식 지정
-    ```shell
-    go fmt
-    ```
+  ```shell
+  go fmt
+  ```
 
 유용한 사이트
 
@@ -21,4 +22,6 @@
 - [Package 검색](https://pkg.go.dev/)
 - [Go Forum](https://forum.golangbridge.org/)
 
-### [section04](section04)
+### [section04](section04/README.md)
+
+### [section05](section05/README.md)
