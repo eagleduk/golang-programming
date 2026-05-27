@@ -7,3 +7,5 @@
 ## exercises 2
 
 - 변수에 타입만 선언하면 컴파일러가 값을 지정하는데 이를 `제로값(Zero Value)` 이라 한다.
+
+## exercises 3
