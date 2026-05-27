@@ -15,11 +15,7 @@ func main() {
 
 	x = 42
 
-	fmt.Println(x)
-
-	x := "James Bond"
-
-	y = x
+	y = int(x)
 
 	fmt.Println(y)
 	fmt.Printf("%T", y)
