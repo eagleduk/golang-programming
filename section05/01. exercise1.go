@@ -1,7 +1,17 @@
 package main
 
-var a int = 42
-var b string = "James Bond"
-var c bool = true
+import (
+	"fmt"
+)
 
-func main() {}
+func main() {
+	x := 42
+	y := "James Bond"
+	z := true
+
+	fmt.Println(x)
+	fmt.Println(y)
+	fmt.Println(z)
+
+	fmt.Println(x, y, z)
+}
