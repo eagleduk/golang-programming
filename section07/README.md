@@ -9,3 +9,5 @@
 - untyped: 컴파일러 단계에서 타입을 유동적으로 지정하게 한다.
 
 ## exercises 4
+
+## exercises 5
