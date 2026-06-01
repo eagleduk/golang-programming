@@ -25,3 +25,5 @@
 ### [section04](section04/README.md)
 
 ### [section05](section05/README.md)
+
+### [section06](section06/README.md)
