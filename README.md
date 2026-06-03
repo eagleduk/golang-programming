@@ -21,6 +21,7 @@
 - [Go PlayGround](https://go.dev/play/)
 - [Package 검색](https://pkg.go.dev/)
 - [Go Forum](https://forum.golangbridge.org/)
+- [Go By Example](https://gobyexample.com/)
 
 ### [section04](section04/README.md)
 
@@ -29,3 +30,5 @@
 ### [section06](section06/README.md)
 
 ### [section07](section07/README.md)
+
+### [section08](section08/README.md)
