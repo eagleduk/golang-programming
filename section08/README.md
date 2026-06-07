@@ -24,3 +24,11 @@ if [condition] {}
 ```go
 if x := 43; x == 3 {}
 ```
+
+#### else, else if
+
+```go
+if [condition] {}
+else if [condition] {}
+else [condition] {}
+```
