@@ -10,3 +10,17 @@ for [init]; [condition]; [post]; {}
 ```go
 for [condition] {}
 ```
+
+## conditional
+
+```go
+if [condition] {}
+```
+
+#### if
+
+- `두줄 이상의 코드를 한줄로 작성할 때 (;) 를 추가한다.` 따라서 초기화와 상태 검증를 한줄에 작성할 수 있다.
+
+```go
+if x := 43; x == 3 {}
+```
