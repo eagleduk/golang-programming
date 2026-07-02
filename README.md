@@ -23,18 +23,20 @@
 - [Go Forum](https://forum.golangbridge.org/)
 - [Go By Example](https://gobyexample.com/)
 
-### [section04](section04/README.md)
+### [section04](section04)
 
-### [section05](section05/README.md)
+### [section05](section05)
 
-### [section06](section06/README.md)
+### [section06](section06)
 
-### [section07](section07/README.md)
+### [section07](section07)
 
-### [section08](section08/README.md)
+### [section08](section08)
 
-### [section09](section09/README.md)
+### [section09](section09)
 
-### [section10](section10/README.md)
+### [section10](section10)
 
-### [section11](section11/README.md)
+### [section11](section11)
+
+### [section12](section12)
