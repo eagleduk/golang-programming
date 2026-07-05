@@ -11,3 +11,8 @@
   func foo(s string) (string, bool) {}
 
   ```
+
+- `...` 기호를 사용하여 갯수가 정해지지 않은 매개변수를 정의할 수 있다.
+  ```go
+      func foo(s ...int) {}
+  ```
