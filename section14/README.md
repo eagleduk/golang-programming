@@ -32,3 +32,17 @@
   }
   // foo() -> foobar() -> bar()
   ```
+
+## Method
+
+- 구조체에 정의되는 함수
+- 구조체를 만들고 함수를 연결 하는 식으로 추가한다.
+  ```go
+  type pserson struct {
+      firstname string
+      lastname string
+  }
+  func (a person) fullname() {
+      return a.firstname + " " + a.lastname
+  }
+  ```
