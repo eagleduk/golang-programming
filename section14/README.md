@@ -58,3 +58,7 @@
   ```
 
 ## Anonymous function
+
+## function expression
+
+- 익명 함수를 변수에 할당하여 여러곳에서 수행할 수 있다.
