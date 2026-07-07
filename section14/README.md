@@ -56,3 +56,5 @@
       say()
   }
   ```
+
+## Anonymous function
