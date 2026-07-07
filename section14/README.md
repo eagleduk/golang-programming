@@ -46,3 +46,13 @@
       return a.firstname + " " + a.lastname
   }
   ```
+
+## Interface
+
+- 구조체를 메소드로 엮는다.
+- 동일한 메소드가 있으면 같은 인터페이스 타입으로 정의한다.
+  ```go
+  type in interface {
+      say()
+  }
+  ```
