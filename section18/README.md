@@ -15,3 +15,11 @@
 - json 데이터를 받고자 하는 변수의 **주소값** 을 넘겨주어야 한다.
 
 ## sort
+
+## bcrypt
+
+- 공식 외부 라이브러리 사용
+  ```command
+  go mod init [내 프로젝트명]
+  go get golang.org/x/crypto/bcrypt
+  ```
