@@ -14,9 +14,19 @@ func main() {
 func exercises3_gen() <-chan int {
 	c := make(chan int)
 
-	for i := 0; i < 100; i++ {
-		c <- i
+	go func() {
+		for i := 0; i < 100; i++ {
+			c <- i
+		}
+		close(c)
+	}()
+	return c
+}
+
+func exercises3_receive(c <-chan int) {
+
+	for v := range c {
+		fmt.Println(v)
 	}
 
-	return c
 }
