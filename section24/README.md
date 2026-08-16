@@ -26,3 +26,5 @@
 - `goroutine` 이 있다면 역순으로 정지할 때 까지 수행
 - `defer` 가 있다면 30분 후에 수행
 - `recover` 로 제어 가능
+
+#### recover
