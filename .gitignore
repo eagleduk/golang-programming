@@ -27,3 +27,6 @@ go.work.sum
 /pkg
 /bin
 /documents
+
+# text file
+*.log
