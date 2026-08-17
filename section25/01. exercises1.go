@@ -3,6 +3,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"log"
 )
 
 type person struct {
@@ -18,8 +19,11 @@ func main() {
 		Sayings: []string{"Shaken, not stirred", "Any Last wishes?", "Never say never"},
 	}
 
-	bs, _ := json.Marshal(p1)
-
+	bs, err := json.Marshal(p1)
+	if err != nil {
+		log.Println("Marshal err", err)
+		return
+	}
 	fmt.Println(string(bs))
 
 }
