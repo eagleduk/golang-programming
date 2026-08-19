@@ -1,5 +1,8 @@
+// Package main
+// aa
 package main
 
+// Section28 sum func
 func section28_sum(i ...int) int {
 	sum := 0
 	for _, v := range i {
