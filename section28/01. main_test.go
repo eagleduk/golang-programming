@@ -41,9 +41,15 @@ func TestSection28_sum2(t *testing.T) {
 
 }
 
-func TestSection28_sum3(t *testing.T) {
+func Example_section28_sum() {
 	x := section28_sum(1, 2, 3)
 	fmt.Println(x)
 	// Output:
 	// 6
+}
+
+func BenchmarkSection28_sum(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		section28_sum(2, 3, 4, 5, 6)
+	}
 }
