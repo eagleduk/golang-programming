@@ -18,3 +18,19 @@
 ## benchmark
 
 - 작성한 함수의 퍼포먼스를 확인할 수 있다.
+
+## coverage
+
+- 작성한 함수의 사용량을 알 수 있다.
+
+- 분석 내용을 파일로 내보낸다.
+
+    ```zsh
+    go test -coverprofile=c.out
+    ```
+    
+- 내보낸 파일을 html 형식으로 확인한다.
+
+    ```zsh
+    go tool cover -html=c.out
+    ```
